@@ -1,0 +1,99 @@
+
+@media(max-width:806px){
+	h1.mainhead{
+	padding:110px 0 0 10px;
+	font-size:30px;
+	margin:0;
+	
+	}
+	
+	
+	li{
+		display: block
+	}
+	.start{
+
+	height:400px;
+	text-align: left
+	}
+	
+	
+	.thipchi{
+	background:black;
+	border:none;
+	padding:15px 20px;
+	opacity: 0.7;
+	color:white;
+	
+	}
+	#extra{
+		font-size:23px;
+		color:white;
+	}
+	.nabi{
+		display:none;
+
+	}
+
+	.dropdown{
+		display:unset;
+	}
+
+
+	
+	
+
+}
+@media(max-width:982px){
+	.abt{
+		height:440px;
+	}
+	.ichi, .ni, .san{
+		height:120px;
+	}
+	.grid h3, .grid1 h3, .grid2 h3 {
+    padding-top: 10px;
+    font-size:18px;
+	}
+	li{
+		padding:10px 20px;
+	}
+	
+}
+@media(max-width:768px){
+	.intro, .intro1{
+		height:150px;
+	}
+	.intro h3, .intro1 h3{
+		padding-top:20px;
+		margin-top:30px;
+	}
+	.abt2{
+		padding-top:40px;
+	}
+	.ichi, .ni, .san{
+		height:80px;
+	}
+	.grid h3, .grid1 h3, .grid2 h3 {
+    padding-top: 30px;
+    font-size:25px;
+	}
+	.plans{
+		height:750px;
+		padding-top:50px;
+	}
+	.contact{
+		height:720px;
+	}
+
+	
+}
+@media(max-width:500px){
+	.abt p{
+		padding:0;
+		
+	}
+	.serv p{
+		padding:0;
+	}
+}

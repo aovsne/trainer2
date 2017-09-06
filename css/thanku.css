@@ -1,0 +1,23 @@
+body{
+	margin:0;
+	padding:0;
+	height:50%;
+
+	
+}
+*{
+	font-family: 'Exo 2', sans-serif;
+}
+.thank{
+	text-align: center;
+	
+}
+.thuche{
+	margin-top:100px;
+	border:1px solid grey;
+	padding-bottom:30px;
+}
+.arigato{
+	background:#b5f9f8;
+	
+}

@@ -1,0 +1,32 @@
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	
+}
+*{
+	font-family: 'Exo 2', sans-serif;
+}
+
+.book{
+	background:url(../img/book.jpg) no-repeat center fixed;
+	background-size:cover;
+	height:400px;
+}
+
+.gonas{
+	background:#f7941d;
+	color:white;
+	text-align:center;
+}
+.gonas{
+	margin:0;
+	padding:30px 0;
+}
+
+.gonas p{
+	padding:30px 30px 30px 30px;
+}
+.keikaku{
+	padding:50px 0;
+}

@@ -1,0 +1,221 @@
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	
+}
+*{
+	font-family: 'Exo 2', sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+   	 text-decoration:none; 
+     cursor:pointer; 
+     
+}
+.top{
+	text-align:center;
+	position:fixed;
+	background:white;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.dikki{
+	display:none;
+
+}
+
+li{
+	display:inline-block;
+	text-align:center;
+	padding:20px 30px;
+}
+
+li:hover{
+	background:#eff0f1; 
+}
+
+i{
+	margin:0 5px;
+}
+.kiki, .kiki1{
+	margin-top:30px;
+	padding:10px 40px;
+	border:solid 1.5px white;
+	background:transparent;
+	color:white;
+	font-size:25px;
+}
+.kiki:hover{
+	background-color:#e6e72e;
+	transition:0.5s;
+	color:black;
+}
+.kiki1:hover{
+	background-color:#86e0e6;
+	transition:0.5s;
+	
+}
+.start{
+	text-align: left;
+	height:700px;
+	width:100%;
+	background:url(../img/trainer.jpg)no-repeat center fixed;
+	background-size:cover;
+}
+h1.mainhead{
+	padding:25% 0 0 10px;
+	margin:0;
+	color:white;
+	font-size:45px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.abt{
+	text-align:center;
+	background-color:#e6e72e;
+	height:400px;
+}
+.abt p{
+	font-size:16px;
+	padding:10px 70px;
+
+}
+.abt h2{
+	padding-top:80px;
+	margin:0;
+}
+.abt2{
+	background:url(../img/trainer2.jpg) no-repeat center  fixed;
+	background-size:cover;
+	height:550px;
+	padding-top:80px;
+}
+
+/*intro*/
+.intro{
+	text-align:center;
+	height:300px;
+	background-color:white;
+}
+.intro h3, .intro1 h3{
+	margin-top:80px;
+}
+.intro1{
+	text-align:center;
+	height:300px;
+	background-color:#e6e72e;
+}
+.button{
+	text-align:center;
+	margin-top:30px;
+}
+
+/*SERVICES*/
+.serv{
+	text-align:center;
+	background-color:#fffdc4;
+	height:440px;
+}
+.serv p{
+	font-size:16px;
+	padding: 10px 70px;
+
+}
+.serv h2{
+	padding-top:80px;
+	margin:0;
+}
+/*PLAN */
+.plans{
+	background:url(../img/trainer3.jpg) no-repeat center fixed;
+	background-size:cover;
+	height:700px;
+	padding-top:100px;
+	text-align: center
+}
+.grid{
+	background:white;
+	height:180px;
+}
+.grid1 {
+	background:#fffdc4;
+	height:180px;
+}
+.grid2{
+	background:#e6e544;
+	height:180px;
+}
+.grid:hover{
+	background:#b5f9f8;
+}
+.grid1:hover{
+	background:#b5f9f8;
+}
+.grid2:hover{
+	background:#b5f9f8;
+}
+.grid h3, .grid1 h3, .grid2 h3{
+	padding-top:40px;
+}
+/*CONTACT*/
+.contact{
+	height:720px;
+	background:#b5f9f8;
+	text-align: center
+}
+
+input, textarea{
+	width:70%;
+	padding:5px ;
+	margin-bottom:20px;
+	border:none;
+	border-radius:5px;
+
+}
+.contact h2{
+	margin:0;
+	padding-top:50px;
+}
+.add p{
+	font-size:18px;
+}
+
+.bim {
+	background:white;
+	padding:10px;
+	border-radius:18px;
+}
+.bim:hover{
+	background:black;
+	color:white;
+	transition:0.3s ;
+}
+
+/*LAST*/
+
+.last{
+	background:url(../img/trainer4.jpg) no-repeat center  fixed;
+	height:400px;
+}
+
+.riri{
+	background-color:#e5e444;
+	text-align:center;
+	height:140px;
+	
+}
+
+/*waypoint new class*/
+.way1, .intro, .intro1, .service, .ichi, .ni, .san{
+	opacity:0;
+}
+.setume, .left, .right, .katsu, .chik, .nyi, .sum{
+	opacity:1;
+}
